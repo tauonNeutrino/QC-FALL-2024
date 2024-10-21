@@ -1,0 +1,13 @@
+dwave-inspector
+dwave-system
+ipykernel
+jupyterlab
+matplotlib
+mplcyberpunk
+numpy
+pandas
+pip
+python-dotenv
+python-lsp-server
+pyzmq
+scikit-learn
