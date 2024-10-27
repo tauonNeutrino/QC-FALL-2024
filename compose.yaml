@@ -6,6 +6,9 @@ services:
       - 8888:8888
       - 18000-18999:18000-18999
     volumes:
-      - .:/home/jovyan/work
+      - jupyter:/home/jovyan/work
     user: root
     command: start-notebook.py --NotebookApp.token=''
+
+volumes:
+  jupyter:
